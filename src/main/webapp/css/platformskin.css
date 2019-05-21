@@ -1,0 +1,14 @@
+.five-margin{
+  margin: 4px 5px 5px 5px;
+}
+
+.slidedNav{
+    top: 0;
+    z-index: 100; 
+    position: sticky;
+}
+
+.brand-logo{
+    margin-top: 7px !important;
+    margin-left: 7px !important;   
+}

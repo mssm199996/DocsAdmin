@@ -1,0 +1,138 @@
+.centerContainer{
+	margin-left: 0 !important;
+	margin-top: 0px !important;
+	padding-right: 0px !important;
+}
+
+.centerContainer table{
+	border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+
+.collection-header{
+	padding: 0px 0px 0px 0px !important;
+}
+
+.collection-header .row{
+	margin-bottom: 0px;
+}
+
+.theaders{
+  margin: 0px 5px -11px 0px;
+}
+
+.accheaders{
+	margin-left: 5px;
+	margin-top: 11px;
+}
+
+.searchContainer{
+	margin-bottom: 15px !important;
+}
+
+.searchContainer input{
+	margin-bottom: 0px !important;
+}
+
+.collapsible{
+	margin-top: 0px;
+}
+
+.prefix{
+	margin-top: 15px;
+}
+
+.addButton{
+	border-radius: 100% !important;
+	border-width: 0.5px !important;
+	border-color: white ;
+	border-style: ridge !important;
+	margin-right: 5px;
+}
+
+.addButton i{
+	margin-right: 0px !important;
+	margin-top: -2px !important;
+	margin-left: -0.5px !important;
+}
+
+.collapsible-body{
+	padding: 0px 0px 0px 0px !important;
+	margin-bottom: 0px !important;
+}
+
+.addRemoveContainer{
+	padding: 10px 10px 10px 10px !important;
+}
+
+.listContainer{
+	padding: 0px 0px 0px 0px !important;
+}
+
+
+.centerContainer .row{
+	overflow: scroll;
+	height: 100%;
+}
+
+#newConsuModal, #newMedecineModal, #newPrescriptionModal{
+	width: 90%;
+}
+
+#newConsuModal a, #newObsModal a{
+	margin-top: 20px;
+}
+
+table{
+	margin-bottom: 40px !important;
+}
+
+.medecineDataCell{
+    max-width: 150px;
+    max-height: 200px;
+    word-wrap: break-word;
+}
+
+.medecineCheckCell{
+	padding-bottom: 5px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+tr input{
+	margin-bottom: 0px !important;
+	text-align: center !important;
+	width: 175px !important;
+}
+
+tr td:nth-child(5){
+	width: 200px !important;
+}
+
+td{
+	padding-bottom: 5px !important;
+	padding-top: 5px !important;
+}
+
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(210,210,210); 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(160,160,160); 
+}
+
+
+
+html, body {
+	margin: 0; 
+	height: 100%; 
+}

@@ -1,0 +1,51 @@
+div[class='parallax'] img {
+	display: block !important;
+}
+
+.slidedNav{
+    top: 0;
+    z-index: 100; 
+    position: sticky;
+}
+
+.buttonsDiv{
+	margin-top: 35px;
+}
+
+.signInButtin{
+	margin-right: 35px;
+}
+
+.functionalitiesIcons{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.middleCard{
+	margin-left: 50px !important;
+	margin-right: 50px !important;
+}
+
+.mediaButton{
+	width: 64px; 
+	height: 64px; 
+	border-radius: 100px;
+	border-style: solid;
+	border-width: 0.5px;
+	border-color: white;
+	margin-right: 20px;
+	margin-top: 15px;
+}
+
+.contactDivs{
+	margin-top: 10px;
+}
+
+.contactDivs i{
+	margin-right: 5px;
+}
+
+.brand-logo{
+    margin-top: 7px !important;
+    margin-left: 7px !important;
+}

@@ -1,0 +1,13 @@
+.theaders{
+  margin: -10px 15px -11px 0px;
+}
+
+.formIcon{
+  margin: 13px 0px 0px 0px;
+}
+
+.dataCell{
+    max-width: 150px;
+    max-height: 200px;
+    word-wrap: break-word
+}

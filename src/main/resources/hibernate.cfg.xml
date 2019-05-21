@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-configuration">
+<hibernate-configuration>
+    <session-factory>
+        <property name = "hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name = "hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name = "hibernate.connection.url">jdbc:mysql://localhost:3306/docsadmin?zeroDateTimeBehavior=convertToNull</property>
+        <property name = "hibernate.connection.username">root</property>
+        <!-- <property name = "hibernate.connection.password"></property> -->
+        <property name = "show_sql">false</property>
+        <property name = "format_sql">false</property>
+        
+        <!-- Class Mappings -->
+        <mapping class = "DomainModel.UserAdministration.Person"></mapping>
+        <mapping class = "DomainModel.UserAdministration.Account"></mapping>
+        <mapping class = "DomainModel.UserAdministration.Doctor"></mapping>
+        <mapping class = "DomainModel.UserAdministration.Secretary"></mapping>
+        <mapping class = "DomainModel.UserAdministration.Speciality"></mapping>
+        
+        <mapping class = "DomainModel.AppointmentAdministration.Appointment"></mapping>
+        <mapping class = "DomainModel.AppointmentAdministration.Paraclinic"></mapping>
+        <mapping class = "DomainModel.AppointmentAdministration.Reason"></mapping>
+        
+        <mapping class = "DomainModel.ConsultationAdministration.Consultation"></mapping>
+        <mapping class = "DomainModel.ConsultationAdministration.Observation"></mapping>
+        
+        <mapping class = "DomainModel.DocumentAdministration.Document"></mapping>
+        
+        <mapping class = "DomainModel.MedecineAdministration.Medecine"></mapping>
+        
+        <mapping class = "DomainModel.PatientAdministration.Analysis"></mapping>
+        <mapping class = "DomainModel.PatientAdministration.AnalysisType"></mapping>
+        <mapping class = "DomainModel.PatientAdministration.Antecedent"></mapping>
+        <mapping class = "DomainModel.PatientAdministration.Disease"></mapping>
+        <mapping class = "DomainModel.PatientAdministration.Media"></mapping>
+        <mapping class = "DomainModel.PatientAdministration.Patient"></mapping>
+    </session-factory>
+</hibernate-configuration>
