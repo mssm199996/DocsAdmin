@@ -1,2 +1,2 @@
 # DocsAdmin
-Java EE web application for the a medical office administration
+Java EE web application for medical office administration
